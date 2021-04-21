@@ -1,0 +1,13 @@
+	Un paysage sonore se déploie à partir d'un sample, une boucle infine.
+
+	Ce premier paysage est interrompu par des évenements qui s'infiltrent dans la composition du listenner.
+
+	Des objets apparaissent et disparaissent. Une nuée approche l'espace d'écouté elle est motivée par des dynamiques indépendantes du player.
+
+	On peut en suivre les mouvements être pris.
+
+
+
+
+Une quadriphonie déploie un paysage sonore. Des objets audio infiltrent sa composition. Certains fixes ajoutent leurs vibrations.
+Une rumeur pertube la linéarité de la composition quadri elle est animée par une dynamique libre.
