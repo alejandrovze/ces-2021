@@ -1,0 +1,30 @@
+These assets were developed by Marcio Meireles de Castro from Infinita Studio.
+
+
+They are free to use and the inclusion of credits in the project is optional, although it would be nice if you insert it ;)
+
+
+The package includes:
+
+1 .Blend file with the source mesh set (feel free to modify them)
+
+5 different shape rocks
+
+3 diffuse textures (be careful to change them if you rename or reassign on the .Blend file)
+
+1 normal map texture
+
+1 specullar texture
+
+1 .FBX file (you can ungroup the objects)
+
+5 .OBJ files (one for each rock)
+
+6 rendered images for demonstration.
+
+Any doubts you contact me on www.infinitastudio.com
+
+Cheers!
+
+2015 | Marcio Meireles
+       www.infinitastudio.com

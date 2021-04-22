@@ -7,6 +7,7 @@ public class FlockManager : MonoBehaviour
 
 {
     public GameObject fishPrefab;
+    public GameObject fishDaddy;
     public int numFish = 20;
     public GameObject[] allFish;
     public Vector3 swimLimits = new Vector3(1, 1, 1);
@@ -31,7 +32,8 @@ public class FlockManager : MonoBehaviour
              );
             allFish[i] = (GameObject) Instantiate(fishPrefab, pos, Quaternion.identity);
             allFish[i].GetComponent<Flock>().myManager = this;
-            
+            allFish[i].transform.parent = fishDaddy.transform;
+
             AudioClip clip = allFish[i].GetComponent<Flock>().sound_samples[i];
             AudioSource source = allFish[i].GetComponent<AudioSource>();
             source.clip = clip;
