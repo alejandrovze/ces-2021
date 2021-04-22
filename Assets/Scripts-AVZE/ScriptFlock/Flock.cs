@@ -6,6 +6,7 @@ public class Flock : MonoBehaviour
 {
 
 	public FlockManager myManager;
+	public AudioClip[] sound_samples;
 	float speed;
 
 	// Use this for initialization
