@@ -5,8 +5,8 @@ using UnityEngine;
 public class PerturberRandom : MonoBehaviour
 {
      public float yHeight = 1f;
-     private float movementDuration = 2.0f;
-     private float waitBeforeMoving = 2.0f;
+     private float movementDuration = 6.0f;
+     private float waitBeforeMoving = 1.0f;
      private bool hasArrived = false;
  
      private void Update()
