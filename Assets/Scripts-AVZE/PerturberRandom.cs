@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PerturberRandom : MonoBehaviour
 {
+     public float yHeight = 1f;
      private float movementDuration = 2.0f;
      private float waitBeforeMoving = 2.0f;
      private bool hasArrived = false;
@@ -15,7 +16,8 @@ public class PerturberRandom : MonoBehaviour
              hasArrived = true;
              float randX = Random.Range(-5.0f, 5.0f);
              float randZ = Random.Range(-5.0f, 5.0f);
-             StartCoroutine(MoveToPoint(new Vector3(randX, 2f, randZ)));
+             Vector3 target = new Vector3(transform.position.x + randX, yHeight, transform.position.z + randZ);
+             StartCoroutine(MoveToPoint(target));
          }
      }
  

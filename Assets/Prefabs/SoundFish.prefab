@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 93ea3c4263ccb4a7e93465e1085b6da3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,12 +109,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myManager: {fileID: 0}
   sound_samples:
-  - {fileID: 8300000, guid: 2111b333d9b6140889b317c5ae75db53, type: 3}
-  - {fileID: 8300000, guid: 985958c36ad664b30b598d6a264252a5, type: 3}
-  - {fileID: 8300000, guid: 71c2d6181595f4bf7bee0121bfa4b521, type: 3}
-  - {fileID: 8300000, guid: 4e073ce7ff4764960ab03d8b6ea60245, type: 3}
-  - {fileID: 8300000, guid: 8bb560a24fdde4e67b75e267369c0dc0, type: 3}
-  - {fileID: 8300000, guid: ea498afffc1e9479f9eb192204be1bf4, type: 3}
+  - {fileID: 8300000, guid: 574147814585945f5ab5bb9eb6039726, type: 3}
+  - {fileID: 8300000, guid: 490714e327a6e43c7b4a2215100b2b6d, type: 3}
+  - {fileID: 8300000, guid: 44d1a794f91bc43238cc3850cfedb585, type: 3}
+  - {fileID: 8300000, guid: 3fcfa9ee7da6e4cdfb08f408b94a85cc, type: 3}
+  - {fileID: 8300000, guid: 5e1814ceacd3442269635640bd0146c2, type: 3}
+  - {fileID: 8300000, guid: 4b072f3903ae5485d82611730448a7a1, type: 3}
+  - {fileID: 8300000, guid: 62184a13dfada42dc9b7ef048fb44d09, type: 3}
 --- !u!82 &515464712491989965
 AudioSource:
   m_ObjectHideFlags: 0
